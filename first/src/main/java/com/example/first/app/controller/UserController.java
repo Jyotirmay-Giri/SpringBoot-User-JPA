@@ -1,14 +1,13 @@
-package com.example.first.app;
+package com.example.first.app.controller;
 
+import com.example.first.app.model.User;
+import com.example.first.app.service.UserService;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.time.LocalDateTime;
+import java.util.*;
 
 @RestController
 @RequestMapping("/user")
@@ -98,4 +97,16 @@ public class UserController {
                 + ":" + id
                 + ":" + name;
     }
+
+    // Exception Handeling
+//    @ExceptionHandler({IllegalArgumentException.class, NullPointerException.class})
+//    public ResponseEntity<Map<String, Object>> handleIlligalArgumentException(
+//            Exception exception){
+//        Map<String,Object> errorResponse = new HashMap<>();
+//        errorResponse.put("message",exception.getMessage());
+//        errorResponse.put("timestamp", LocalDateTime.now());
+//        errorResponse.put("status",HttpStatus.BAD_REQUEST);
+//        return new ResponseEntity<>(errorResponse,HttpStatus.BAD_REQUEST);
+//
+//    }
 }

@@ -1,7 +1,6 @@
-package com.example.first.app;
+package com.example.first.app.service;
 
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
+import com.example.first.app.model.User;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -11,7 +10,7 @@ import java.util.Map;
 
 @Service
 public class UserService {
-    private Map<Integer,User> userDb = new HashMap<>();
+    private Map<Integer, User> userDb = new HashMap<>();
 
     public User createUser(User user) {
         System.out.println(user.getEmail());
@@ -22,7 +21,9 @@ public class UserService {
 
     public User updateUser(User user){
         if(!userDb.containsKey(user.getId())){
-            return null;
+//            return null;
+            // Exception handeling
+            throw new IllegalArgumentException("User with ID " + user.getId() + " does not Exist");
         }
         userDb.put(user.getId(),user);
         return user;

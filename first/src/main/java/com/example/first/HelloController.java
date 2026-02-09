@@ -1,6 +1,6 @@
 package com.example.first;
 
-import com.example.first.app.User;
+import com.example.first.app.model.User;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
