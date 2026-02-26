@@ -19,6 +19,7 @@ public class UserService {
     private final Logger logger = LoggerFactory.getLogger(this.toString());
 
     public User createUser(User user) {
+
         logger.info("CREATING USER....................INFO");
         logger.error("Checking for................... Error");
         logger.trace("Checking for ..................... Trace");
