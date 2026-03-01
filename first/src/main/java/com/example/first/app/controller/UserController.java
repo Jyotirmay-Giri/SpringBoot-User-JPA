@@ -21,11 +21,7 @@ public class UserController {
 
     @PostMapping
     public ResponseEntity<User> createUser(@RequestBody User user){
-
         User createdUser = userService.createUser(user);
-//        System.out.println(user.getEmail());
-//        userDb.putIfAbsent(user.getId(), user);
-//        return ResponseEntity.status(HttpStatus.CREATED).body(user);
         return new ResponseEntity<>(createdUser,HttpStatus.CREATED);
 
     }

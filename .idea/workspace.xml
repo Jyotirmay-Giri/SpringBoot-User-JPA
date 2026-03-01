@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f980058b-c455-4139-80b7-9a949e4f9411" name="Changes" comment="Setup">
-      <change afterPath="$PROJECT_DIR$/first/src/main/java/com/example/first/app/Repository/UserRepository.java" afterDir="false" />
+    <list default="true" id="f980058b-c455-4139-80b7-9a949e4f9411" name="Changes" comment="JPARepository Implementation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first/src/main/java/com/example/first/app/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/first/src/main/java/com/example/first/app/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first/src/main/java/com/example/first/app/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/first/src/main/java/com/example/first/app/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first/src/main/java/com/example/first/app/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/first/src/main/java/com/example/first/app/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/first/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +62,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772114110975</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="JPARepository Implementation">
+      <option name="closed" value="true" />
+      <created>1772205192388</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1772205192388</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -81,6 +86,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup" />
+    <MESSAGE value="JPARepository Implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="JPARepository Implementation" />
   </component>
 </project>
