@@ -31,6 +31,14 @@ public class UserService {
         logger.debug("User email added.........DEBUG " + user.getEmail());
         System.out.println(user.getEmail());
 
+        if(user.getProfile() != null){
+            user.getProfile().setUser(user);
+        }
+
+        if(user.getPosts() != null){
+            user.getPosts().forEach(post -> post.setUser(user));
+        }
+
 //        userDb.putIfAbsent(user.getId(),user);
         return userRepository.save(user);
     }

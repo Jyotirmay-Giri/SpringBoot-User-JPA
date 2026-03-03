@@ -1,9 +1,8 @@
 package com.example.first.app.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
+
+import java.util.List;
 
 @Entity
 public class User {
@@ -12,6 +11,29 @@ public class User {
     private  int id;
     private String name;
     private String email;
+
+    // Relationship with profile
+    @OneToOne(mappedBy = "user",cascade = CascadeType.ALL)
+    private Profile profile;
+
+    @OneToMany(mappedBy = "user",cascade = CascadeType.ALL)
+    private List<Post> posts;
+
+    public Profile getProfile() {
+        return profile;
+    }
+
+    public void setProfile(Profile profile) {
+        this.profile = profile;
+    }
+
+    public List<Post> getPosts() {
+        return posts;
+    }
+
+    public void setPosts(List<Post> posts) {
+        this.posts = posts;
+    }
 
     public User() {
     }

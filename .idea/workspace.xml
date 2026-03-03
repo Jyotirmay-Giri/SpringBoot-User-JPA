@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f980058b-c455-4139-80b7-9a949e4f9411" name="Changes" comment="JPARepository Implementation">
+    <list default="true" id="f980058b-c455-4139-80b7-9a949e4f9411" name="Changes" comment="Configuration changes for db">
+      <change afterPath="$PROJECT_DIR$/first/src/main/java/com/example/first/app/model/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first/src/main/java/com/example/first/app/model/Profile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first/src/main/java/com/example/first/app/model/Tag.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first/src/main/java/com/example/first/app/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/first/src/main/java/com/example/first/app/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/first/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first/src/main/java/com/example/first/app/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/first/src/main/java/com/example/first/app/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first/src/main/java/com/example/first/app/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/first/src/main/java/com/example/first/app/service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -35,16 +39,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.FirstApplication.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ADMIN/OneDrive/Desktop/springboot/first -Jpa"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.FirstApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ADMIN/OneDrive/Desktop/springboot/first -Jpa&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -70,7 +74,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772205192388</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Configuration changes for db">
+      <option name="closed" value="true" />
+      <created>1772343023061</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1772343023061</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -87,6 +99,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setup" />
     <MESSAGE value="JPARepository Implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="JPARepository Implementation" />
+    <MESSAGE value="Configuration changes for db" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configuration changes for db" />
   </component>
 </project>
