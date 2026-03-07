@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f980058b-c455-4139-80b7-9a949e4f9411" name="Changes" comment="Configuration changes for db">
-      <change afterPath="$PROJECT_DIR$/first/src/main/java/com/example/first/app/model/Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first/src/main/java/com/example/first/app/model/Profile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first/src/main/java/com/example/first/app/model/Tag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first/src/test/java/com/example/first/app/controller/UserControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first/src/main/java/com/example/first/app/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/first/src/main/java/com/example/first/app/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first/src/main/java/com/example/first/app/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/first/src/main/java/com/example/first/app/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first/src/main/java/com/example/first/FirstApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/first/src/main/java/com/example/first/FirstApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,16 +36,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.FirstApplication.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ADMIN/OneDrive/Desktop/springboot/first -Jpa&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.FirstApplication.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ADMIN/OneDrive/Desktop/springboot/first -Jpa"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
